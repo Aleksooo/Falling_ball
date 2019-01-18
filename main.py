@@ -29,7 +29,7 @@ screen = py.display.set_mode((width, height))
 
 while True:
     screen.fill(yellow)
-    py.time.Clock().tick(144)
+    py.time.Clock().tick(60)
 
     for event in py.event.get():
         if event.type == py.QUIT:
